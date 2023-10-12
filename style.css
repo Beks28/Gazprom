@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap');
+/* Accent */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+h2 {
+    color: #404149;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* Accent */
+
+
+
+/* header */
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header__nav img:nth-child(1) {
+    width: 60px;
+    height: 60px;
+}
+
+.header__nav img:nth-child(2) {
+    width: 50px;
+    height: 50px;
+}
+/* header */
+
+/* cover */
+#cover {
+    background-image: url('./images/Rectangle.png');
+    min-height: 100vh;
+    background-size: 100% 100%;
+}
+.main__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cover__wrap {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.cover__wrap p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+/* cover */
+
+/* age */
+#age {
+    margin: -150px 0 0 0;
+}
+
+.age__row {
+    background: #F7F7F7;
+    padding: 57px 0;
+
+}
+
+.age__box p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.age__box p:nth-child(1) {
+    color: #F7654A;
+    font-size: 72px;
+    font-weight: 500;
+}
+.age__box p:nth-child(2) {
+    font-size: 36px;
+    font-weight: 500;
+}
+.age__box p:nth-child(3) {
+    color:  #999;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* age */
+
+
+/* project */
+#project {
+    padding: 100px 0 150px;
+}
+
+#project h2 {
+    margin-bottom: 60px;
+}
+
+.project__box img {
+    width: 100%;
+    margin-bottom: 45px;
+}
+.line {
+    width: 55px;
+    height: 6px;
+    background: #F7654A;
+    margin-bottom: 15px;
+}
+
+#project h3 {
+    color:  #404149;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#project p {
+    color: #999;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+/* project */
+
+/* apply */
+#apply {
+    background: #F7654A;
+}
+
+#apply .row {
+    padding: 30px 0 45px;
+}
+
+h4 {
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    margin-bottom: 15px;
+}
+
+.apply__box p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+.apply__col-6 {
+    margin:  auto 0;
+}
+.apply__box2  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 14px 30px;
+    display: flex;  
+    align-items: center;
+    cursor: pointer;
+}
+.btn img {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+}
+.btn p {
+    color: black;
+}
+/* apply */
+#arduino{
+    padding: 150px 0 150px;
+}
+.container h2{
+    margin-bottom: 66px;
+}
+.arduino__box{
+    background-color: #F7F7F7;
+padding: 59px 60px;
+margin: 0 auto;
+}
+.arduino__box img{
+    width:60px ;
+    height:40px ;
+    
+}
+.arduino__box h4{
+    color: #000000;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.IMG {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.quick__row{
+    padding: 0;
+    margin: 0;
+    row-gap: 0;
+}
+.square__col-3 img{
+    width: 100%;
+    height: 100%;  
+    padding: 0; 
+}
+.square__col-3 {
+    padding: 0;
+    margin: 0;
+  
+}
+
+#blitzskrig{
+    padding: 150px 150px;
+}
+
+.otvet  h1{
+    font-size: 36px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+.voprosidze__box{
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.q12 h3{
+    width: 300px;
+    height: 29px;
+    color:  #F7654A;
+    font-size: 20px;
+    margin-left:15px ;
+}
+.rkd p{
+    width: 730px;
+    height: 83px;
+    color:  #999;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+}
+
+.grow__row{
+    padding: 50px 0 65px;
+    margin-left: -100px;
+}
+.q12{
+    display: flex;
+    margin-bottom: 15px;
+}
+.q12 img{
+    width: 15px;
+    height: 15px;
+    margin: auto 0;
+}
+
+
+
+
+#otziv{
+    background:  #404149;
+}
+
+.chto h2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 100px;
+    width: 100%;
+    height: 43px;
+    color:  #FFF;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.brox__row {
+    display: flex;  
+    gap: 90px; 
+}
+.brox{
+   margin-top: -100px; 
+}
+
+
+#EQWOP{
+    padding: 150px 0;
+}
+
+ h2{
+    color: #000;
+font-family: Oswald;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.bvld2 img{
+    width: 35px;
+    height: 35px;
+}
+.bvld h4{
+    flex-shrink: 0;
+     color: #000;
+    font-family: Oswald;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    }
+
+
+.bvld2{
+    padding: 50px 30px;
+    background: #F7F7F7;
+}
+.bvld2 p{
+    color: var(--gray, #999);
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; 
+}
+.bvld h4 p{
+    display: inline;
+    color:  #F7654A;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.42px;
+}
+#ovram {
+    background: #F7654A;
+}
+
+
+#ovram .row {
+    padding: 30px 0 45px;
+}
+
+h4 {
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+    margin-bottom: 15px;
+}
+
+.sc__box p{
+    color: #FFF;
+    width: 562px;
+height: 29px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Oswald;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.48px;
+}
+.sc__col-6 {
+    margin:  auto 0;
+}
+.sc__box2  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 14px 30px;
+    display: flex;  
+    align-items: center;
+    cursor: pointer;
+}
+.btn img {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+}
+.btn p {
+    color: black;
+}
+
+
+
+
+
+.scv h2{
+    color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 100px;
+    width: 100%;
+    height: 43px;
+    /* h2 */
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+footer{
+    background:  #404149;
+    padding: 30px 0 30px 0;
+}
+
+.footer__box p{
+    text-align: center;
+    color: var #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
